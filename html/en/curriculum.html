@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+    a {
+      color: black;
+    }
+  
+		.curriculum-page {
+			width: 750px;
+			height: 1100px;
+			background: #F9F9F9;
+			border-radius: 25px;
+			border: 1px solid #000000;
+			font-family: "Good Times";
+			padding: 20px;
+			margin: 20px 0 20px 0;
+		}
+		
+		.container {
+			width: 100%;
+		}
+		
+		.curriculum-page .header {
+			text-align: center;
+		}
+		
+		.curriculum-page .header .cv-header {
+			padding: 10px 0 10px 0;
+			font-size: 3.8em;
+			border-bottom: 1px dotted #000000;
+		}
+		
+		.curriculum-page .header .highlight {
+			color: #168AD8;
+		}
+		
+		.curriculum-page .header .name-header {
+			padding: 20px 0 10px 0;
+			font-size: 2em;
+		}
+		
+		.sections {
+			list-style-image: url('../../images/Terminal.png');
+		}
+		
+		.sections .section {
+			margin: 20px 0 20px 0;
+		}
+		
+		.sections .title {
+			color: #168AD8;
+		}
+		
+		.sections .content {
+			font-family: 'Verdana';
+			font-size: 0.9em;
+			margin: 8px 0 0 0;
+			line-height: 1.5em;
+		}
+		
+		.grid-component {
+			display: inline-block;
+			margin-top: 10px;
+		}
+		
+		.left-list {
+			width: 49%;
+			border-right: 1px dotted;
+		}
+		
+		.right-list {
+			width: 49%;
+		}
+		
+		.tools {
+			list-style: none;
+		}
+		
+		.tools li {
+			display: block;
+			margin: 10px 0 10px 0;
+			width: 90%;
+      line-height: 1em;
+		}
+		
+		.tools .tool .tool-name {
+			font-family: "Good Times";
+			font-weight: 500;
+			font-size: 0.8em;
+			color: #D21E1E;
+		}
+		
+		.tools .tool .tool-level {
+			font-style: italic;
+			color: #168AD8;
+		}
+		
+		.tools .tool .tool-icon {
+			width: 20px;
+			height: 20px;
+			vertical-align: middle;
+		}
+		
+		.old-jobs {
+			list-style-image: url('../../images/TerminalRed.png');
+		}
+		
+		.old-jobs .job {
+			margin: 10px 0 10px 0;
+		}
+		
+		.old-jobs .job .job-name {
+			font-family: "Good Times";
+			font-weight: 500;
+			font-size: 0.8em;
+		}
+		
+		.old-jobs .job .job-name .job-name-string {
+			color: #D21E1E;
+		}
+		
+		.contact-info {
+			list-style: none;
+			margin: 10px;
+			padding: 0;
+			font-size: 0.8em;
+			text-align: center;
+		}
+		
+		.contact-info .contact {
+			display: inline;	
+			margin: 5px;
+		}
+		
+		.contact-info .contact .contact-icon {
+			width: 20px;
+			height: 20px;
+			vertical-align: middle;	
+		}
+		
+		.contact-info .contact .contact-name {
+			font-family: "Good Times";
+			color: #D21E1E;
+			vertical-align: bottom;
+		}
+		
+		.contact-info .contact .contact-value {
+			vertical-align: bottom;	
+		}
+		
+		.sign {
+			font-size: 1em;
+			font-family: "Times New Roman";
+			font-style: italic;
+      line-height: 0;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="curriculum-page">
+    	<div class="container">
+            <div class="header">
+                <div class="cv-header">
+                    Curriculum <span class="highlight">Vitae</span>
+                </div>
+                <div class="name-header">
+                    <span class="highlight">Hello my name is</span> Mario Grimaldi
+                </div>
+            </div>
+            <div class="body">
+                <ul class="sections">
+                    <li class="introduction section">
+                        <div class="title">
+                            Introducing myself
+                        </div>
+                        <div class="content">
+                            Nasco come sviluppatore di software desktop ma mi sono poi adattato come
+                            tutti allo sviluppo sul web che ultimamente ricopre la maggior parte del mio
+                            tempo assieme allo sviluppo mobile (iPhone, iPad e Windows Phone).
+                            Ho ottenuto un diploma da perito informatico
+                            presso l'IIS Blaise Pascal di Reggio Emilia con un voto di 83/100.
+                            Attualmente sto concludendo gli studi alla facolta' di Ingegneria Informatica
+                            presso l'Universita' degli studi di Parma.
+                            Cerco continuamente di ampliare le mie conoscenze e amo anche per questo l'informatica
+                            dove ogni giorno viene fuori qualcosa di nuovo.
+                            I miei obiettivi futuri sono laurearmi alla triennale e proseguire con una specializzazione,
+                            magari all'estero senza pero' perdere il contatto con il mondo del lavoro da cui fin ora ho 
+                            imparato moltissimo.
+                        </div>
+                    </li>
+                    
+                    <li class="my-tools section">
+                        <div class="title">
+                            Gli strumenti
+                        </div>
+                        <div class="content">
+                            Un elenco dei software e framework che conosco e uso piu' spesso.
+                            <div class="grid-component left-list">
+                                <ul class="tools">
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/xcode.png" />
+                                        <span class="tool-name">
+                                            Xcode
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. intermediate
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/photoshop.jpeg" />
+                                        <span class="tool-name">
+                                            Photoshop
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. beginner
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/phpmyadmin.png" />
+                                        <span class="tool-name">
+                                            PhpMyAdmin
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. advanced
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/jquery.jpg" />
+                                        <span class="tool-name">
+                                            jQuery
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. advanced
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/maven.png" />
+                                        <span class="tool-name">
+                                            Maven
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. beginner
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/spring.png" />
+                                        <span class="tool-name">
+                                            Spring
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. beginner
+                                        </span>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="grid-component right-list">
+                                <ul class="tools">
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/eclipse.png" />
+                                        <span class="tool-name">
+                                            Eclipse
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. expert
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/git.png" />
+                                        <span class="tool-name">
+                                            GIT
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. intermediate
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/liferay.jpg" />
+                                        <span class="tool-name">
+                                            Liferay
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. advanced
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/terminal_icon.png" />
+                                        <span class="tool-name">
+                                            Console
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. advanced
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/yui.png" />
+                                        <span class="tool-name">
+                                            YUI
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. advanced
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/bootstrap.png" />
+                                        <span class="tool-name">
+                                            Bootstrap
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. intermediate
+                                        </span>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="my-knowledge section">
+                        <div class="title">
+                            Le conoscenze
+                        </div>
+                        <div class="content">
+                            Le piu' importanti tra le mie conoscenze informatiche.
+                            <div class="grid-component left-list">
+                                <ul class="tools">
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/html5.png" />
+                                        <span class="tool-name">
+                                            HTML 5, CSS & JS
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. advanced
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/java.png" />
+                                        <span class="tool-name">
+                                            Java SE/EE
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. expert
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/apple.jpeg" />
+                                        <span class="tool-name">
+                                            Objective-C
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. intermediate
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/xml.png" />
+                                        <span class="tool-name">
+                                            XML
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. advanced
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/agile.gif" />
+                                        <span class="tool-name">
+                                            Agile
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. beginner
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="grid-component right-list">
+                                <ul class="tools">
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/c.png" />
+                                        <span class="tool-name">
+                                            C/C++
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. intermediate
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/php.jpg" />
+                                        <span class="tool-name">
+                                            PHP
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. intermediate
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/mysql.jpg" />
+                                        <span class="tool-name">
+                                            MySQL
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. intermediate
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/rest.jpg" />
+                                        <span class="tool-name">
+                                            REST Services 
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. beginner
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <img class="tool-icon" src="../../images/portlet.png" />
+                                        <span class="tool-name">
+                                            Portlet Java 
+                                        </span>
+                                        <span class="tool-level">
+                                            lv. expert
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="what-i-do section">
+                        <div class="title">
+                            Cosa so fare
+                        </div>
+                        <div class="content">
+                            <div>Un elenco delle principali competenze che ho sviluppato negli anni.</div>
+                            <div class="grid-component left-list">
+                                <ul class="tools">
+                                    <li class="tool">
+                                        <span class="tool-name">
+                                            App dispositivi iOS
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <span class="tool-name">
+                                          Object Oriented Analysis and Design (OOAP) + SaaS
+                                        </span>
+                                    </li>
+                                
+                                    <li class="tool">
+                                        <span class="tool-name">
+                                            Plugins Liferay Portal <br/>
+                                            (Portlet, Theme, Hook)
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="grid-component right-list">
+                                <ul class="tools">
+                                    <li class="tool">
+                                        <span class="tool-name">
+                                            Sviluppo di librerie e moduli JS <br/>
+                                            Script server side
+                                        </span>
+                                    </li>
+                                    
+                                    <li class="tool">
+                                        <span class="tool-name">
+                                          Creazione Portali e Siti Web
+                                        </span>
+                                    </li>
+                                                                        
+                                    <li class="tool">
+                                        <span class="tool-name">
+                                            Web App Rails
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+	</div>
+    
+    <div class="curriculum-page">
+    	<div class="container">
+        	<ul class="sections">
+            	<li class="what-i-have-done section">
+                	<div class="title">
+                    	Cosa ho fatto
+                    </div>
+                    <div class="content">
+                        <ul class="old-jobs">
+                            <li class="job">
+                            	<div class="job-name">
+                                	<span class="job-name-string">Stage scolastico</span> - 4 settimane estate 2007 - presso Aston S.r.l
+                                </div>
+                                <div class="job-description">
+                                	Ho effettuato un stage scolastico in una ditta di informatica dove
+                                    la mia mansione principale e' stata l'assemblaggio di computer e il loro
+                                    test prima dell'immissione nel mercato.
+                                </div>
+                            </li>
+                            
+                            <li class="job">
+                            	<div class="job-name">
+                                	<span class="job-name-string">Lezioni private di Matematica e Informatica</span> - dal 2009 al 2011
+                                </div>
+                                <div class="job-description">
+                                	Ho tenuto lezioni private di informatica e matematica a ragazzi delle
+                                    medie e delle superiori.
+                                </div>
+                            </li>
+                            
+                            <li class="job">
+                            	<div class="job-name">
+                                	<span class="job-name-string">Animatore</span> - 3 mesi estate 2010 - presso Arci Ragazzi RE
+                                </div>
+                                <div class="job-description">
+                                	Ho lavorato come animatore in un campo estivo insieme a bambini disabili
+                                    e non. In questo periodo ho potuto esprimere con i bimbi una delle mie passioni,
+                                    l'illusionismo. E' stata un'esperienza molto bella.
+                                </div>
+                            </li>
+                            
+                            <li class="job">
+                            	<div class="job-name">
+                                	<span class="job-name-string">Promoter</span> - Dicembre 2010 - Presso Alessi
+                                </div>
+                                <div class="job-description">
+                                	Ho lavorato come promoter di AlessiTab della ditta Alessi, famosa per il design
+                                    di oggetti per la casa.
+                                </div>
+                            </li>
+                            
+                            
+                            <li class="job">
+                            	<div class="job-name">
+                                	<span class="job-name-string">Sviluppo siti Web</span> - Da Gennaio 2011 a Oggi - Freelance
+                                </div>
+                                <div class="job-description">
+                                	Ho contribuito allo sviluppo del funzionamento e del design di alcuni siti tra cui:
+                                    <ul>
+                                    	<li>
+                                        	<a href="http://www.codeluppiassociati.net">codeluppiassociati.net</a>
+                                        </li>
+                                    	<li>
+                                        	<a href="http://www.qvita.org">qvita.org</a>
+                                        </li>                                      
+                                    	<li>
+                                        	<a href="http://www.bottegadellebriciole.org">bottegadellebriciole.org</a>
+                                        </li>
+                                    	<li>
+                                        	<a href="http://www.uver.it">uver.it</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <li class="job">
+                            	<div class="job-name">
+                                	<span class="job-name-string">Addetto Multisala</span> - Da Giugno 2011 a Gennaio 2012 - Presso UCI Cinemas di RE
+                                </div>
+                                <div class="job-description">
+                                	Ho lavorato come addetto multisala presso l'UCI Cinema di Reggio Emilia. In particolare ho ricoperto i ruoli di
+                                    maschera e di cassiere. Mi e' stato utile per migliorare la mia capacita' di relazione con le persone e per 
+                                    conoscere i segreti di una grande macchina come il cinema.
+                                </div>
+                            </li>
+                            
+                            <li class="job">
+                            	<div class="job-name">
+                                	<span class="job-name-string">Web and Mobile Developer</span> - Da Ottobre 2011 a Oggi - Presso Addiction CML
+                                </div>
+                                <div class="job-description">
+                                	Ho lavorato principalmente sul portale Liferay. Per quest'ultimo ho sviluppato
+                                    varie tipologie di portlet, tra cui:
+                                    <ul>
+                                    	<li>
+                                        	Applicativo social per twitter (A breve sul Marketplace di Liferay)
+                                      </li>
+                                    	<li>
+                                        	Utility che permette agli utenti di localizzare in maniera autonoma bundle properties
+                                      </li>
+                                    	<li>
+                                        	Visualizzazione di prodotti in 3D
+                                      </li>
+                                    	<li>
+                                        	Motore di ricerca basato su google site search
+                                      </li>
+                                    	<li>
+                                        	<a href="http://www.radiobruno.it/web/guest/video-gallery">Videogallery</a>
+                                      </li>
+                                      <li>
+                                        Servlet per la generazione di dati da servire ad un'app iOS per la geolocalizzazione
+                                        di punti chiave.
+                                      </li>
+                                      <li>
+                                        Portlet per la gestione di archivi di news.
+                                      </li>
+                                    </ul>
+                                    
+                                    Ho inoltre sviluppato alcuni temi per siti di clienti e lavorato su applicazioni per iOS tra
+                                    cui un sistema di app vetrina per prodotti dell'azienda TetraPak
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+                
+                <li class="about-me">
+                	<div class="title">
+                    	Contatti
+            		</div>
+                    <div class="content">
+                    	Dire tutto di me in cosi' poco spazio e' molto difficile. Se pero' ho suscitato interesse,
+                        ecco tutte quelle informazioni noiose che fin ora ho risparmiato ma che sono vitali
+                        per potersi mettere in contatto. Grazie per il tempo dedicato a leggere il mio curriculum.
+                        <ul class="contact-info">
+                        	<li class="contact">
+                            	<img class="contact-icon" src="../../images/gmail.png" />
+                                <span class="contact-name">email</span>
+                                <span class="contact-value">
+                                  <a href="mailto:mario.grimaldi89@gmail.com">mario.grimaldi89@gmail.com</a>
+                                </span>
+                            </li>
+                            
+                        	<li class="contact">
+                            	<img class="contact-icon" src="../../images/skype.png" />
+                                <span class="contact-name">skype</span>
+                                <span class="contact-value">
+                                  <a href="skype:mario.grimaldi89?add">mario.grimaldi89</a>
+                                </span>
+                            </li>
+                            
+                        	<li class="contact">
+                            	<img class="contact-icon" src="../../images/twitter.png" />
+                                <span class="contact-name">twitter</span>
+                                <span class="contact-value">
+                                  <a href="http://twitter.com/mariogrimaldi89">@mariogrimaldi89</a>
+                                </span>
+                            </li>
+                            
+                            <li class="contact">
+                            	<img class="contact-icon" src="../../images/linkedin.png" />
+                                <span class="contact-name">linkedin</span>
+                                <span class="contact-value">
+                                  <a href="http://it.linkedin.com/in/mariogrimaldi">it.linkedin.com/in/mariogrimaldi</a>
+                                </span>
+                            </li>
+                            
+                            <li class="contact">
+                            	<img class="contact-icon" src="../../images/phone.jpg" />
+                                <span class="contact-name">phone</span>
+                                <span class="contact-value">393 4080411</span>
+                            </li>
+                        
+                        </ul>
+                        <div class="sign">Distinti saluti, Mario Grimaldi</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+	
+</body>
+</html>
