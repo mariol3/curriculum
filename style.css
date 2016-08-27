@@ -1,0 +1,156 @@
+a {
+	color: black;
+}
+
+.curriculum-page {
+	width: 750px;
+	height: 1100px;
+	background: #F9F9F9;
+	border-radius: 25px;
+	border: 1px solid #000000;
+	font-family: "Good Times";
+	padding: 20px;
+	margin: 20px 0 20px 0;
+}
+
+.container {
+	width: 100%;
+}
+
+.curriculum-page .header {
+	text-align: center;
+}
+
+.curriculum-page .header .cv-header {
+	padding: 10px 0 10px 0;
+	font-size: 3.8em;
+	border-bottom: 1px dotted #000000;
+}
+
+.curriculum-page .header .highlight {
+	color: #168AD8;
+}
+
+.curriculum-page .header .name-header {
+	padding: 20px 0 10px 0;
+	font-size: 2em;
+}
+
+.sections {
+	list-style-image: url('images/Terminal.png');
+}
+
+.sections .section {
+	margin: 20px 0 20px 0;
+}
+
+.sections .title {
+	color: #168AD8;
+}
+
+.sections .content {
+	font-family: 'Verdana';
+	font-size: 0.8em;
+	margin: 8px 0 0 0;
+	line-height: 1.5em;
+}
+
+.grid-component {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.left-list {
+	width: 49%;
+	border-right: 1px dotted;
+}
+
+.right-list {
+	width: 49%;
+}
+
+.tools {
+	list-style: none;
+}
+
+.tools li {
+	display: block;
+	margin: 10px 0 10px 0;
+	width: 100%;
+	line-height: 1em;
+}
+
+.tools .tool .tool-name {
+	font-family: "Good Times";
+	font-weight: 500;
+	font-size: 0.8em;
+	color: #D21E1E;
+}
+
+.tools .tool .tool-level {
+	font-style: italic;
+	color: #168AD8;
+}
+
+.tools .tool .tool-icon {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.old-jobs {
+	list-style-image: url('images/TerminalRed.png');
+}
+
+.old-jobs .job {
+	margin: 10px 0 10px 0;
+}
+
+.old-jobs .job .job-name {
+	font-family: "Good Times";
+	font-weight: 500;
+	font-size: 0.8em;
+}
+
+.old-jobs .job .job-name .job-name-string {
+	color: #D21E1E;
+}
+
+.old-jobs .job .job-description ul > li {
+  margin: -5px 0;
+}
+
+.contact-info {
+	list-style: none;
+	margin: 12px;
+	padding: 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.contact-info .contact {
+	display: inline-block;	
+	margin: 0 5px;
+}
+
+.contact-info .contact .contact-icon {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;	
+}
+
+.contact-info .contact .contact-name {
+	font-family: "Good Times";
+	color: #D21E1E;
+	vertical-align: bottom;
+}
+
+.contact-info .contact .contact-value {
+	vertical-align: bottom;	
+}
+
+.sign {
+	font-size: 1em;
+	font-family: "Times New Roman";
+	font-style: italic;
+}
