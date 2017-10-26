@@ -154,3 +154,10 @@ a {
 	font-family: "Times New Roman";
 	font-style: italic;
 }
+
+.privacy {
+	font-size: 0.6em;
+	font-family: "Times New Roman";
+	font-style: italic;	
+	line-height: 5px;
+}
